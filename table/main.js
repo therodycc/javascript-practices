@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
             enableTime: false,
             dateFormat: "Y-m-d H:i",
             onChange: function (selectedDates, dateStr, instance) {
-                alert( `${btn.getAttribute('name')} - ${dateStr}`)
                 dateRange.innerHTML = `${btn.getAttribute('name')} - <b> ${dateStr}</b>`
                 console.log({
                     selectedDates,
